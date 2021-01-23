@@ -7,10 +7,9 @@ import React, { Component } from 'react'
 
 class App extends Component {
   render() {
-    console.log(generatePalette(seedColour[4]))
     return (
       <div>
-        <Palette {...seedColour[4]} />
+        <Palette palette={generatePalette(seedColour[4])} />
       </div>
     )
   }
