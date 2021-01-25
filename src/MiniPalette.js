@@ -13,7 +13,7 @@ const styles = {
         }
     },
     colors: {
-        backgroundColor: "grey"
+        backgroundColor: "white"
     },
     title: {
         display: "flex",
